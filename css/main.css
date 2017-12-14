@@ -1,0 +1,43 @@
+@-moz-viewport { width: device-width; scale:1;}
+@-ms-viewport { width: deviece-width; scale: 1;}
+@-o-viewport { width: device-width; scale:1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+
+
+*, * ::before, *::after {
+  box-sizing: inherit;
+
+img:nth-child {
+    margin: 0;
+    width: 50%;
+    display:none;
+    float: left;
+  }
+
+@media only screen and (min-width:20em) {
+
+}
+
+img:nth-child {
+  margin: 0;
+  width: 33.3333%;
+  display:none;
+  float: left;
+}
+
+@media only screen and (min-width:38em) {
+
+}
+
+img:nth-child {
+  margin: 0;
+  width: 66.6666%;
+  display:none;
+  float: left;
+}
+@media only screen and (min-width:60em)  {
+
+}
